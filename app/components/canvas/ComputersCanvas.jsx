@@ -61,10 +61,10 @@ const ComputersCanvas = () => {
       <Suspense fallback={<CanvasLoader />}>
 
         <Computers isMobile={isMobile} />
-        <ambientLight intensity={-5} /> // Add some ambient light
-        <spotLight position={[0, 0, 0]} intensity={10} /> // Add a spotlight or other lights as needed
+        <ambientLight intensity={-5} /> 
+        <spotLight position={[0, 0, 0]} intensity={10} /> 
         <OrbitControls 
-       /> // Enable orbit controls to allow interaction similar to Sketchfab
+       />
        
       </Suspense>
 

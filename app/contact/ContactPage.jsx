@@ -83,8 +83,8 @@ const Contact = () => {
               <span className="w-[30px] h-[2px] bg-primary"></span>
               Hello!
             </div>
-            <h1 className="h3 max-w-md mb-8">Let's work together.</h1>
-            <p className='subtitle max-w-[400px] mb-6'>I'm currently looking for new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
+            <h1 className="h3 max-w-md mb-8">Let&apos;s work together.</h1>
+            <p className='subtitle max-w-[400px] mb-6'>I&apos;m currently looking for new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I&apos;ll try my best to get back to you!
             </p>
 
             <div className="relative flex mb-50 xl:mb-10 text-base xl:text-lg items-center xl:grids-cols-2 gap-x-3">
@@ -132,7 +132,7 @@ const Contact = () => {
                 <MessageSquare className="absolute top-4 right-6" size={20} />
               </div>
               <Button type="submit" className="relative flex items-center max-w-[165px] rounded-full gap-x-1 hover:bg-slate-800">
-                Let's Talk
+                Let&apos;s Talk
                 <ArrowRightIcon size={20} />
                 {loading ? "Sending..." : ""}
               </Button>
