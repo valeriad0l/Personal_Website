@@ -39,5 +39,4 @@ next-env.d.ts
 # eslint config
 .eslintrc.json
 
-# custom lib directory
-/lib/
+
