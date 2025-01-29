@@ -54,9 +54,9 @@ const HeroSection = () => {
         1000, 
         'a Tutor',
         1000,
-        'a Coding Volunteer',
+        'a Volunteer',
         1000,
-        'a Front-End Developer',
+        'a Software Developer',
         1000
       ]}
       wrapper="span"
@@ -66,8 +66,8 @@ const HeroSection = () => {
 
     </h1>
     <p style={{ fontWeight: 500, color: '#553BFF' }} className="text-base mb-6 sm:text-lg lg:text-xl"> 
-    Ambitious third-year Co-op Software Engineering student @ Concordia University.
-    Actively seeking Summer 2024 internships to apply my growing
+    Ambitious 4th/final year Co-op Software Engineering student @ Concordia University.
+    Actively seeking Summer 2025 internships to apply my growing
     knowledge and passion for innovative technology!
     </p>
     

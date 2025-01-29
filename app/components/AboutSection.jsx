@@ -36,12 +36,17 @@ const workData = [
       title: 'experience',
       data: [
          {
+            company: 'CAE Inc., Montreal QC',
+            role: 'Tools Developer Intern',
+            years: 'May 2024 – August 2024',
+         },
+         {
             company: 'Bombardier Inc., Montreal QC',
             role: 'Software Developer Intern',
             years: 'May 2023 – August 2023',
          },
          {
-            company: 'Modulus Data, Boston MA',
+            company: 'Modulus Data, Boston MA (Remote)',
             role: 'Full-Stack Software Developer Intern',
             years: 'January 2023 – April 2023',
          },
@@ -204,9 +209,9 @@ const AboutSection = () => {
                                  {getData(workData, 'experience').data.map((item, index) => {
                                     const { company, role, years } = item;
                                     return (
-                                       <div className="flex gap-x-8 group" key={index}>
+                                       <div className="relative flex gap-x-8 group" key={index}>
                                           <div className="h-[84px] w-[1px] bg-border relative ml-2">
-                                             <div className="w-[11px] h-[11px] rounded-full bg-[#4844FF] absolute -left-[5px] group-hover:translate-y-[84px] transition-all duration-500"> </div>
+                                             <div className="relative w-[11px] h-[11px] rounded-full bg-[#4844FF] absolute -left-[5px] group-hover:translate-y-[84px] transition-all duration-500"> </div>
                                           </div>
                                           <div>
                                              <div className="font-semibold text-lg leading-none mb-2">{company}</div>

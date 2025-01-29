@@ -5,10 +5,11 @@ import ProjectCard from "./ProjectCard";
 
 const projectData = [
   {
-    image: '/work/projectImage.png',
-    name: 'Comming Soon',
-    description: "Coming Soon",
-    link:"/",
+    image: '/work/ai_travel_planner.png',
+    name: '✈︎ AI Travel Planner',
+    description: "Travel planning web app designed to help users create personalized itineraries.",
+    link:"https://navigo-ai-travel-planner.vercel.app/",
+    linkGithub: "https://github.com/valeriad0l/AI-Trip-Planner",
     category: "Website",
   },
   {
@@ -16,6 +17,7 @@ const projectData = [
     name: 'Comming Soon',
     description: "Coming Soon",
     link:"/",
+    linkGithub: "/",
     category: "Website",
   },
   {
@@ -23,6 +25,7 @@ const projectData = [
     name: 'Comming Soon',
     description: "Coming Soon",
     link:"/",
+    linkGithub: "/",
     category: "Mobile",
   },
 ]
