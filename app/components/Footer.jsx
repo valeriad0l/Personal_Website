@@ -6,7 +6,7 @@ const Footer = () => {
         <div className="lg:footer footer z-10 container mx-auto">
            <div className="lg:flex lg:flex-col flex-col items-center justify-between">
             <div className="text-[#ffffff]">
-                Copyright &copy; 2024 All Rights Reserved.
+                Copyright &copy; 2024 All Rights Reserved
             </div>
            </div>
         </div>
@@ -14,4 +14,4 @@ const Footer = () => {
   )
 }
 
-export default Footer;
+export default Footer; 
